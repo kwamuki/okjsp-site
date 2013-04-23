@@ -49,7 +49,8 @@ show : function() {
 },
 
 showAside : function() {
-	document.writeln('<a href="/f.jsp?http://www.eclipse.org/donate/" target="_blank"><img src="http://eclipse.org/donate/images/friendslogo200.jpg" style="width:150px"></a>');
+	'document.writeln('<a href="/f.jsp?http://www.eclipse.org/donate/" target="_blank"><img src="http://eclipse.org/donate/images/friendslogo200.jpg" style="width:150px"></a>');
+	document.writeln('<a href="/f.jsp?http://www.ddddddd.com/" target="_blank"><img src="/images/ddd.gif"></a>');
     document.writeln("<ul>");
     for(var i = 0; i < this.aside.length; i++) {
         document.writeln("<li>"+this.aside[i].tag+"</li>");
